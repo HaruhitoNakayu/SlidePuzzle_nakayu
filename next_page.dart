@@ -135,7 +135,7 @@ class _SlidePuzzState extends State<SlidePuzz> {
                   }
                   final Color panelColor = isSolved()
                       ? Colors.green
-                      : Colors.blue;
+                      : Colors.red;
 
                   return GestureDetector(
                     onTap: () => move(index),
